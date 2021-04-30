@@ -1,5 +1,4 @@
-profile: non-prod
-  autostart: true
-  bypass: false
-  mock: true
-  mastermind: true
+autostart: true
+bypass: false
+mock: true
+mastermind: true
