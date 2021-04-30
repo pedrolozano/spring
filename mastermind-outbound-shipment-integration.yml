@@ -1,0 +1,5 @@
+profile: non-prod
+  autostart: true
+  bypass: false
+  mock: true
+  mastermind: true
