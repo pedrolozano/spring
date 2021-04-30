@@ -1,2 +1,30 @@
-message: Hello from config server a new message
+spring:
+  profiles: non-prod
+autostart: true
+bypass: false
+mock: true
+mastermind: true
+
+spring:
+  profiles: pre-deploy
+autostart: false
+bypass: false
+mock: false
+mastermind: false
+
+spring:
+  profiles: mock
+autostart: true
+bypass: false
+mock: true
+mastermind: false
+
+spring:
+  profiles: production
+autostart: true
+bypass: false
+mock: false
+mastermind: true
+
+
 
